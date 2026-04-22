@@ -1,0 +1,23 @@
+# Environment
+.env
+*.env
+GROQ_API_KEY
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Logs (keep structure, ignore content)
+logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated outputs (samples are kept)
+outputs/results_*.json
+outputs/results_*.xlsx
+outputs/summary_report_*.txt
