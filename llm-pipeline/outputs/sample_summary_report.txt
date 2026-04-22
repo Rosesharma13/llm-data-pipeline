@@ -1,0 +1,44 @@
+======================================================================
+LLM DATA PIPELINE — SUMMARY REPORT
+Generated: 2026-04-22 08:03:41
+======================================================================
+
+PIPELINE OVERVIEW
+----------------------------------------
+Total chunks processed : 2
+Successfully analyzed  : 2
+Failed / skipped       : 0
+Success rate           : 100.0%
+
+SOURCES PROCESSED
+----------------------------------------
+  [TXT] inputs/sample.txt
+         Chunks: 1 | Successful: 1
+  [URL] https://en.wikipedia.org/wiki/Artificial_intelligence
+         Chunks: 2 | Successful: 2
+
+SENTIMENT ANALYSIS
+----------------------------------------
+  neutral    ████                 1 chunks (50.0%)
+  positive   ████                 1 chunks (50.0%)
+
+KEY ENTITIES FOUND
+----------------------------------------
+  People        : Eric Topol, Elizabeth Warren, Alan Turing, Geoffrey Hinton
+  Places        : San Diego, Geneva, London, United States, United Kingdom
+  Organizations : Google DeepMind, IBM Watson Health, OpenAI, FDA, Microsoft
+
+CHUNK SUMMARIES
+----------------------------------------
+
+  Source: inputs/sample.txt [Chunk 1]
+  Sentiment: neutral (78%)
+  Summary: Artificial intelligence is transforming healthcare by improving diagnostics, reducing costs, and enhancing efficiency.
+
+  Source: https://en.wikipedia.org/wiki/Artificial_intelligence [Chunk 1]
+  Sentiment: positive (82%)
+  Summary: Artificial intelligence encompasses machine learning, deep learning, and neural networks that enable computers to perform tasks.
+
+======================================================================
+END OF REPORT
+======================================================================
