@@ -18,12 +18,12 @@ A production-style Python data pipeline that ingests unstructured text from mult
 
 ## 🤖 LLM Used — Why Groq?
 
-**Model:** `gemma2-9b-it` via Groq API
+**Model:** `llama-3.1-8b-instant` via Groq API
 
 **Why Groq:**
 - Fastest LLM inference API available (sub-second latency)
 - Free tier with generous rate limits — no credit card required
-- `gemma2-9b-it` produces clean, structured JSON reliably
+- `llama-3.1-8b-instant` produces clean, structured JSON reliably
 - Simple Python SDK with no hidden abstractions
 
 ---
@@ -32,13 +32,13 @@ A production-style Python data pipeline that ingests unstructured text from mult
 
 ```
 llm-pipeline/
+├── inputs/
+│   └── sample.txt        ← Sample input file for testing
 ├── src/
 │   ├── ingestion.py      ← Reads .txt, .pdf files and fetches URLs
 │   ├── preprocessor.py   ← Cleans text and chunks into LLM-safe sizes
 │   ├── llm_client.py     ← Groq API calls with retry + JSON parsing
 │   └── storage.py        ← Saves JSON, Excel, and text report
-├── inputs/
-│   └── sample.txt        ← Sample input file for testing
 ├── outputs/
 │   ├── sample_results.json
 │   ├── sample_results.xlsx
