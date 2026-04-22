@@ -1,13 +1,13 @@
 """
 llm_client.py — LLM API integration module
-Uses Groq API (gemma2-9b-it) with retry logic and exponential backoff
+Uses Groq API (llama-3.1-8b-instant) with retry logic and exponential backoff
 Handles malformed JSON responses gracefully
 Author: Rose Sharma
 
 Why Groq?
 - Free tier with generous rate limits
 - Fast inference (fastest LLM API available)
-- Supports gemma2-9b-it — good balance of speed and quality
+- Supports llama-3.1-8b-instant — good balance of speed and quality
 - No credit card required for free tier
 """
 
