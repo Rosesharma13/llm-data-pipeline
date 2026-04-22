@@ -6,7 +6,7 @@ Usage:
   python main.py --urls https://example.com
 
 Author: Rose Sharma
-LLM Used: Groq — gemma2-9b-it
+LLM Used: Groq — llama-3.1-8b-instant
 Why Groq: Free tier, fastest inference speed, no CC required, gemma2-9b-it handles structured JSON well
 """
 
