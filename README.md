@@ -1,6 +1,6 @@
 # 🔬 LLM Data Pipeline
 
-## AI Engineer Intern Assignment 2 — LLM Integration & Data Pipeline
+## LLM Integration & Data Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
 [![Groq](https://img.shields.io/badge/Groq-FF6B00?style=flat)](https://groq.com)
