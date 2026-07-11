@@ -1,0 +1,9 @@
+streamlit
+groq
+tenacity
+httpx
+beautifulsoup4
+pandas
+openpyxl
+pypdf
+requests
