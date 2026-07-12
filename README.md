@@ -14,7 +14,7 @@ A production-grade text analysis pipeline that ingests unstructured text from fi
 
 ---
 
-![LLM Data Pipeline UI](screenshot.png)
+![LLM Data Pipeline UI](Screenshot.png)
 
 ---
 
